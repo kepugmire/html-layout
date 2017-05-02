@@ -1,0 +1,42 @@
+body {
+    background: white;
+    height: 100vh;
+}
+
+nav {
+    background-color:#444444;
+    width: 100%;
+    height: 20vh;
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*.inner-box {
+    background-color: w#efefef;
+    width: 70vw;
+    height: 100%;
+    float: left;
+}*/
+
+.right-box {
+    background-color: #d8d8d8;
+    height: 80vh;
+    width: 20%;
+}
+.left-box {
+    background-color: #d8d8d8;
+    height: 80vh;
+    width: 20%;
+}
+.lower-box {
+    background-color: #222222;
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    z-index: -100;
+    bottom: 0;
+
+}

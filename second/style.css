@@ -1,0 +1,40 @@
+body {
+    background: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.blue {
+    background-color: #4A90E2;
+    height: 100vh;
+    width: 20%;
+    margin-left: 20%;
+}
+
+.green {
+    display: flex;
+    background-color: #50E3C2;
+    height: 100vh;
+    width: 20%;
+}
+
+.lime {
+    background-color: #B8E986;
+    height: 100vh;
+    width: 20%;
+    position: relative;
+}
+
+.red-box {
+    background-color: #D0021B;
+    height: 90px;
+    width: 100%;
+    color: white;
+    font-family: Arial;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
